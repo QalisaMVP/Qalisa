@@ -55,7 +55,7 @@ To contribute...
     ```bash
     git add .
     git commit -m "Commit Message"
-    git push
+    git push --set-upstream origin <feature-branch-name>
     ```
 
 11. Finally, create a pull request via Github by going to the feature branch of your forked repository and clicking the "Create pull request" button. All pull requests should be made to the base repository's "staging" branch.
