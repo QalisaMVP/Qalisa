@@ -24,7 +24,7 @@ jobs:
     - name: Use vue.js ${{ matrix.vue-version }}
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.vue-version }}
+        vue-version: ${{ matrix.vue-version }}
         cache: 'npm'
     - run: vue-cli-service serve
     - run: vue-cli-service build --if-present
