@@ -33,3 +33,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm run lint
+    # TO-DO (@jamesjohnson11): Once vue tests are added, run tests here
