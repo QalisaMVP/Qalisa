@@ -1,5 +1,9 @@
 <template>
+<<<<<<< Updated upstream
   <img alt="Vue logo" src="./assets/logo.png">
+=======
+  <img alt="Qalisa logo" src='./assets/qalisa_logo.png'>
+>>>>>>> Stashed changes
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
