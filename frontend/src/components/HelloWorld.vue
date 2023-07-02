@@ -1,24 +1,35 @@
 <template>
   <div class="hello">
+    <header>
+      <navbar /> 
+
+    </header>
     <h1>{{ msg }}</h1>
     <p>
       A learning experience designed for junior developers to land and succeed in tech roles
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <h3>Visit our community website!</h3>
     <ul>
-      <li><a href="www.aspiringblackcoders.com" target="_blank" rel="noopener">babel</a></li>
+
+      <li><a href="www.aspiringblackcoders.com" target="_blank" rel="noopener">Aspiring Black Coders</a></li>
     </ul>
     
   </div>
 </template>
 
 <script>
+
+import navbar from './navbar'
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+
+  components: {
+    navbar
+  } 
 }
 </script>
 
