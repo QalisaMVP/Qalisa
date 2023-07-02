@@ -61,3 +61,12 @@ To contribute...
 11. Finally, create a pull request via Github by going to the feature branch of your forked repository and clicking the "Create pull request" button. All pull requests should be made to the base repository's "staging" branch.
 
 12. Once your pull request has been approved and merged into staging, you may delete your feature branch from your forked repository.
+
+## How to Install and Run 
+use this command: npm run serve 
+use url in browser
+##
+
+## Workflow
+push to staging environment
+
