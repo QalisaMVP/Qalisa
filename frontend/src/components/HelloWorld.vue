@@ -8,10 +8,10 @@
     <p>
       A learning experience designed for junior developers to land and succeed in tech roles
     </p>
-    <h3>Visit our community website!</h3>
+
     <ul>
 
-      <li><a href="www.aspiringblackcoders.com" target="_blank" rel="noopener">Aspiring Black Coders</a></li>
+      <li><a href="www.aspiringblackcoders.com" target="_blank" rel="noopener">Log In Here</a></li>
     </ul>
     
   </div>
