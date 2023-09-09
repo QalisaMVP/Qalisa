@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.http import HttpResponse
 from django.shortcuts import render
-
+from backend_api import urls as backend_api_urls
 
 vue_urls = [
   path('', lambda request: HttpResponse(render(request, 'vue_index.html'))),
@@ -27,4 +27,6 @@ vue_urls = [
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('', include(vue_urls)),
+  path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+  path('backend/', include(backend_api_urls))
 ]
