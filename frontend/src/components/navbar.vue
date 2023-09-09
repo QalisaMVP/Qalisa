@@ -2,9 +2,9 @@
     <div>
         <nav class="navbar">
             <ul>
-                <li><a href="#"> Home</a></li>
-                <li><a href="#"> Course</a></li>
-                <li><a href="#"> Progress</a></li>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> Learn </a></li>
+                <li><a href="#"> Your Profile</a></li>
             </ul>
         </nav>  
     </div>  

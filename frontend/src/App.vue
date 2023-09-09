@@ -2,7 +2,7 @@
 
   <img alt="Qalisa logo" src='./assets/qalisa_logo.png'>
 
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="For Junior Developers"/>
 </template>
 
 <script>
