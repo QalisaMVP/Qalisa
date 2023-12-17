@@ -17,6 +17,15 @@ class Course(models.Model):
     def __str__(self):
         return self.course_name
     
+class Lesson(models.Model):
+    lesson_name = models.CharField(max_length=150)
+    lesson_category = models.CharField(max_length=40)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete = models.CASCADE, blank = True, null = True)
+    course = models.ForeignKey(Course, on_delete = models.CASCADE, blank = True, null = False)
+
+    def __str__(self):
+        return self.lesson_name
+    
 
 class UserActivity(models.Model):
     is_active = models.BooleanField(default=True)

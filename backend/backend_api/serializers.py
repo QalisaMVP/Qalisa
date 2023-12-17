@@ -1,10 +1,15 @@
 from rest_framework import serializers
-from .models import Course, UserActivity, User
+from .models import Course, UserActivity, User, Lesson
 
 class CourseSerializer(serializers.ModelSerializer):
     class Meta:
         model = Course
         fields = ["course_name", "completed_lessons", "total_lessons", "course_category", "user"]
+
+class LessonSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Lesson
+        fields = ["lesson_name", "lesson_category", "user", "course"]
 
 
 class UserActivitySerializer(serializers.ModelSerializer):
