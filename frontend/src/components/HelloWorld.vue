@@ -1,7 +1,8 @@
 <template>
-  <div class="hello">
+  <div id="app">
     <header>
-      <navbar /> 
+
+      <NavBar /> 
 
     </header>
     <h1>{{ msg }}</h1>
@@ -19,7 +20,7 @@
 
 <script>
 
-import navbar from './navbar'
+import NavBar from './NavBar'
 
 export default {
   name: 'HelloWorld',
@@ -28,9 +29,11 @@ export default {
   },
 
   components: {
-    navbar
-  } 
+    NavBar
+   
 }
+}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

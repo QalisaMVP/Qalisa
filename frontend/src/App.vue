@@ -5,13 +5,21 @@
   <HelloWorld msg="For Junior Developers"/>
 </template>
 
+
+
+
+
 <script>
+
 import HelloWorld from './components/HelloWorld.vue'
 
+
+
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+   
   }
 }
 </script>
